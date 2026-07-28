@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return """
-    <h1>Welcome to Azure App Service!</h1>
+    <h1>Hello Azure! This is my updated Flask app.</h1>
     <h2>My Flask App is Working.</h2>
     """
 
